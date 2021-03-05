@@ -10,10 +10,11 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
     "dev": "gatsby develop",
-    "start": "gatsby serve"
+    "start": "gatsby serve",
+    "deploy": "gh-pages -d public -f"
   },
   "dependencies": {
     "gatsby": "^2.23.18",
@@ -27,5 +28,9 @@
   },
   "bugs": {
     "url": "https://github.com/mrmartineau/gatsby-starter-code-notes/issues"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "homepage": "."
 }
