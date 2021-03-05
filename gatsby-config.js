@@ -1,18 +1,19 @@
 module.exports = {
+  pathPrefix: "/code-notes",
   siteMetadata: {
-    title: 'gatsby-starter-code-notes',
-    description: `A starter for gatsby-theme-code-notes`,
-    author: 'Zander',
+    title: "Kunal's Programming Notes",
+    description: `Personal Notes on Programming`,
+    author: "Kunal Kundu",
   },
   plugins: [
     {
-      resolve: 'gatsby-theme-code-notes',
+      resolve: "gatsby-theme-code-notes",
       options: {
-        contentPath: 'notes',
-        basePath: '/',
-        showThemeInfo: true,
+        contentPath: "notes",
+        basePath: "/",
+        showThemeInfo: false,
         showDescriptionInSidebar: true,
       },
     },
   ],
-}
+};
