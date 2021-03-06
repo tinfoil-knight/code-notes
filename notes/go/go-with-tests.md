@@ -1,5 +1,6 @@
 ---
-title: Learn Tests w/ Go Notes
+title: Learn Go w/ Tests
+tags: [go, book]
 link: https://quii.gitbook.io/learn-go-with-tests/
 ---
 

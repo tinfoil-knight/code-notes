@@ -1,6 +1,5 @@
 ---
 title: Python Tips
-link: 
 tags: [python]
 ---
 - To check config, use `python3 -version`, `pip3 --version`.

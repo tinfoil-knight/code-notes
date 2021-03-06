@@ -1,6 +1,6 @@
 ---
 title: The Go Programming Language
-tags: [go]
+tags: [go, book]
 ---
 
 - `bufio` is used for streaming while `ioutil` is used for batch processing.
