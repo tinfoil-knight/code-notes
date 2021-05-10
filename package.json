@@ -17,7 +17,7 @@
     "deploy": "gh-pages -d public -f"
   },
   "dependencies": {
-    "gatsby": "^2.32.11",
+    "gatsby": "^2.32.13",
     "gatsby-theme-code-notes": "^1.15.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
